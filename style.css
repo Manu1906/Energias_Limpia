@@ -184,7 +184,7 @@ header {
 
 .fil {
     text-transform:uppercase;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .head {
@@ -444,7 +444,7 @@ section{
     }
 
     .fil {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .head {
         font-size: 4.7rem;
