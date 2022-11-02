@@ -1,0 +1,105 @@
+.container{
+    margin-top: 20px;
+}
+.head1{
+    color:#fff019;
+    font-size: 3.7rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .5rem;
+}
+
+.e{
+    color: #0ab524;
+    font-size: 60px;  
+}
+h2{
+    font-size: 40px;
+}
+
+.container_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto{
+    flex: 4;
+    margin-right: 100px;
+}
+
+
+.container_img{
+    flex: 3;
+ 
+    height: 400px;
+}
+
+
+.imagen {
+    width: 100%;
+    position:static;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.imagen1{
+    width: 100%;
+    position:static;
+    margin-bottom: 20px;
+    margin-left: 1px;
+}
+
+.imagen2{
+    width: 100%;
+    position:static;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.hero_biomasa{
+    width: 100%;
+    height: 70vh;
+    background: url("https://twenergy.com/wp-content/uploads/2019/11/biomasa-en-colombia.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+   section{
+    padding: 7.9rem;
+   }
+   .container_img{
+      display: none;
+   }
+   .texto{
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .menu-toggle {
+    color: #fff;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2.5rem;
+    cursor: pointer;
+    z-index: 1500;
+}
+.active::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    bottom: -3px;
+}
+}
